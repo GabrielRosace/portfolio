@@ -25,4 +25,4 @@ jobs:
     steps:
       - name: Deploy to GH Pages
         id: deployment
-        used: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4
